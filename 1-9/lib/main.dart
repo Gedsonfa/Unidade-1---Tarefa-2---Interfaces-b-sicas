@@ -23,7 +23,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<Color> _textColors = [    Colors.blue,    Colors.red,    Colors.green,    Colors.yellow,    Colors.purple,    Colors.orange, Colors.black ];
+  List<Color> _textColors = [    Colors.blue,    Colors.red,    Colors.green,    Colors.pink,    Colors.purple,    Colors.orange, Colors.black ];
   
   Color _opaColor = Colors.black; // inicializa com a cor preta
 
@@ -37,9 +37,21 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Obama Spinning'),
-      ),
+       appBar: AppBar(
+          title: Row(
+            children: [
+              Image.asset(
+                'assets/images/logo.png', // caminho da imagem
+                fit: BoxFit.contain, // ajuste da imagem
+                height: 32, // altura da imagem
+              ),
+              const SizedBox(
+                width: 8,
+              ),
+              Text('Meu aplicativo'), // título do AppBar
+            ],
+          ),
+        ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -68,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             SizedBox(height: 16),
             Text(
-              'Fernanda deixa eu ver o Enzo, o filho é meu também',
+              'Fernanda deixa eu ver o Enzo, o filho é meu também.',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
