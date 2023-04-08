@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
                 DataCell(Text('30')),
               ]),
               DataRow(cells: [
-                DataCell(Text('Guinness Draught')),
+                DataCell(Text('Maria Prea')),
                 DataCell(Text('Stout')),
                 DataCell(Text('45')),
               ]),
@@ -69,29 +69,29 @@ class MyApp extends StatelessWidget {
                 DataCell(Text('82')),
               ]),
               DataRow(cells: [
-                DataCell(Text('Goose Island IPA')),
+                DataCell(Text('Pitu Breja')),
                 DataCell(Text('IPA')),
                 DataCell(Text('55')),
               ]),
               DataRow(cells: [
-                DataCell(Text('Stella Artois')),
+                DataCell(Text('Não sei')),
                 DataCell(Text('Belgian Pilsner')),
-                DataCell(Text('30')),
+                DataCell(Text('69')),
               ]),
               DataRow(cells: [
-                DataCell(Text('Guinness Draught')),
+                DataCell(Text('Serveja')),
                 DataCell(Text('Stout')),
-                DataCell(Text('45')),
+                DataCell(Text('39')),
               ]),
               DataRow(cells: [
-                DataCell(Text('Stella Artois')),
+                DataCell(Text('Estrela Arotis')),
                 DataCell(Text('Belgian Pilsner')),
-                DataCell(Text('30')),
+                DataCell(Text('03')),
               ]),
               DataRow(cells: [
-                DataCell(Text('Guinness Draught')),
+                DataCell(Text('Guinness Book')),
                 DataCell(Text('Stout')),
-                DataCell(Text('45')),
+                DataCell(Text('54')),
               ]),
               
             ],
